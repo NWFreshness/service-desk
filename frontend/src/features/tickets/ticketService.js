@@ -29,7 +29,7 @@ const getTickets = async(token) => {
   return response.data
 }
 
-//Close ticket
+//get ticket
 const getTicket = async(ticketId, token) => {
   const config = {
     headers: {
